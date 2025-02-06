@@ -31,12 +31,11 @@ React/NextJS
 CSS or TailwindCSS for styling
 No backend (words are hardcoded)
 Installation
-Clone the repository:
+- 1.Clone the repository:
 git clone https://github.com/your-username/wordle-clone.git
-2.Navigate to the project folder:
-
-cd wordle-clone
-3.Install the dependencies:
-npm install
-4.Start the development server:
-npm start
+- 2.Navigate to the project folder:
+- cd wordle-clone
+- 3.Install the dependencies:
+- npm install
+- 4.Start the development server:
+- npm start
