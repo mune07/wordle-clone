@@ -1,0 +1,205 @@
+/* General Styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game Container */
+.game-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Buttons */
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 8px;
+}
+
+/* Submit Button */
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px; /* Adjust width based on content */
+    width: 100%;
+    background: linear-gradient(135deg, #28a745, #1c7a30);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Hover Effect */
+.submit-btn:hover {
+    background: linear-gradient(135deg, #218838, #166c26);
+}
+
+
+/* New Game Button */
+.new-game-btn {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+}
+
+.new-game-btn:hover {
+    background: linear-gradient(135deg, #0072ff, #0056b3);
+}
+
+/* Word Grid */
+.guess-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.guess-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+/* Letter Box */
+.letter-box {
+    width: 65px;
+    height: 65px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 2px solid #333;
+    background: linear-gradient(145deg, #f9f9f9, #dcdcdc);
+    transition: 0.3s ease;
+}
+
+/* Feedback Colors */
+.green {
+    background: linear-gradient(135deg, #28a745, #1c7a30);
+    color: white;
+    border: 2px solid #1c7a30;
+}
+
+.yellow {
+    background: linear-gradient(135deg, #ffc107, #d39e00);
+    color: white;
+    border: 2px solid #d39e00;
+}
+
+.gray {
+    background: linear-gradient(135deg, #6c757d, #52585e);
+    color: white;
+    border: 2px solid #52585e;
+}
+
+/* Keyboard */
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.keyboard input {
+    width: 200px;
+    height: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #333;
+    margin-right: 10px;
+}
+
+.keyboard button {
+    width: 50px;
+    height: 55px;
+    margin: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #fca311, #e85d04);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.keyboard button:hover {
+    background-color: #0072ff;
+}
+
+/* Message */
+.text-lg {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between input and button */
+    margin-top: 20px;
+}
+
+.input-container input {
+    width: 200px;
+    height: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #333;
+    padding: 5px;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; /* Prevent button from taking full width */
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #28a745, #1c7a30);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    border-radius: 10px;
+    box-sizing: border-box;
+    white-space: nowrap; /* Ensures text stays in one line */
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #218838, #166c26);
+}
